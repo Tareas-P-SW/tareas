@@ -4,3 +4,28 @@
 2025-04-01 00:23:15,436 INFO: Stock del producto ID 1 actualizado a 6.
 2025-04-07 12:49:45,301 INFO: Usuario por defecto 'admin' creado.
 2025-04-07 12:50:24,606 INFO: Usuario admin autenticado correctamente.
+2025-04-07 22:00:14,409 WARNING: Fallo en autenticación de usuario: admin.
+2025-04-07 22:00:24,430 WARNING: Fallo en autenticación de usuario: a.
+2025-04-07 22:02:03,437 INFO: Usuario admin autenticado correctamente.
+2025-04-07 22:02:13,028 INFO: Usuario test registrado exitosamente por admin.
+2025-04-07 22:02:19,663 WARNING: Fallo en autenticación de usuario: test.
+2025-04-07 22:02:27,893 INFO: Usuario test autenticado correctamente.
+2025-04-07 22:29:54,258 WARNING: Fallo en autenticación de usuario: admin.
+2025-04-07 22:31:49,605 INFO: Usuario admin autenticado correctamente.
+2025-04-07 22:31:55,008 INFO: Usuario  registrado exitosamente por admin.
+2025-04-07 22:36:34,926 ERROR: Error en el menú de inventario: invalid literal for int() with base 10: ''
+2025-04-07 22:37:26,604 INFO: Producto 'Mouse inalambrico' agregado al inventario.
+2025-04-07 22:45:07,405 INFO: Usuario admin autenticado correctamente.
+2025-04-07 22:45:30,337 INFO: Producto 'lapiz' agregado al inventario.
+2025-04-07 22:51:38,055 INFO: Producto ID 3 actualizado.
+2025-04-07 22:54:47,035 ERROR: Error en el menú de inventario: invalid literal for int() with base 10: ''
+2025-04-07 22:59:56,892 INFO: Producto ID 3 eliminado del inventario.
+2025-04-07 23:00:37,147 INFO: Producto 'Mouse' agregado al inventario.
+2025-04-07 23:01:04,477 INFO: Usuario admin autenticado correctamente.
+2025-04-07 23:02:29,280 INFO: Producto ID 110 eliminado del inventario.
+2025-04-07 23:04:39,210 INFO: Producto ID 111111111 eliminado del inventario.
+2025-04-07 23:04:46,730 ERROR: Error en el menú de inventario: invalid literal for int() with base 10: 'a'
+2025-04-07 23:27:26,609 ERROR: Error en el menú de inventario: invalid literal for int() with base 10: '+'
+2025-04-07 23:27:45,978 ERROR: Error en el menú de inventario: invalid literal for int() with base 10: '+'
+2025-04-07 23:27:55,719 INFO: Stock del producto ID 5 actualizado a 30.
+2025-04-07 23:32:15,997 WARNING: Intento de actualizar stock para producto inexistente ID 1000000000.

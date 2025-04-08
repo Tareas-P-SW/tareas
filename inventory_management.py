@@ -101,6 +101,7 @@ def add_product(name, description, quantity, price, category):
                     (name, description, quantity, price, category))
         conn.commit()
         logging.info(f"Producto '{name}' agregado al inventario.")
+        print(f"Producto '{name}' agregado al inventario.")
     except Exception as e:
         logging.error(f"Error agregando producto '{name}': {e}")
         print("Error al agregar producto.")
@@ -127,6 +128,7 @@ def update_product(product_id, name, description, quantity, price, category):
                     (name, description, quantity, price, category, product_id))
         conn.commit()
         logging.info(f"Producto ID {product_id} actualizado.")
+        print(f"Producto ID {product_id} actualizado.")
     except Exception as e:
         logging.error(f"Error actualizando producto ID {product_id}: {e}")
         print("Error al actualizar producto.")
@@ -140,6 +142,7 @@ def delete_product(product_id):
         cursor.execute("DELETE FROM products WHERE id=?", (product_id,))
         conn.commit()
         logging.info(f"Producto ID {product_id} eliminado del inventario.")
+        print(f"Producto ID {product_id} eliminado del inventario.")
     except Exception as e:
         logging.error(f"Error eliminando producto ID {product_id}: {e}")
         print("Error al eliminar producto.")
@@ -162,6 +165,7 @@ def update_stock(product_id, quantity_change):
                 cursor.execute("UPDATE products SET quantity=? WHERE id=?", (new_quantity, product_id))
                 conn.commit()
                 logging.info(f"Stock del producto ID {product_id} actualizado a {new_quantity}.")
+                print(f"Stock del producto ID {product_id} actualizado a {new_quantity}.")
         else:
             logging.warning(f"Intento de actualizar stock para producto inexistente ID {product_id}.")
             print("Producto no encontrado.")
